@@ -29,11 +29,11 @@
         <h4> more about all available HTML elements on the MDN HTML element reference.</h4>
 
         <h2>CSS Sumary</h2>
-        <h3>CSS(cascading Style Sheets) is used for styling your page content.</h3>
+        <h3>CSS (cascading Style Sheets) is used for styling your page content.</h3>
         <h4 id="st1">CSS là bề mặt của ngôi nhà</h4>
         <h4>CSS là một ngôi nhà rất đẹp</h4>
-        <h4>CSS là một bộ quần áo</h4>
-        <h4>Người dùng CSS là một nhà thiết kết thời trang</h4>
+        <h4>CSS là một bộ quần áo</h4>       
+        <h4>Người dùng CSS là<a id="select">nhà thiết kế thời trang</a></h4>
         <h4 id="st1">CSS là phần không thể thiếu</h4>
         <h4>CSS là tâm hồn của WEB</h4>
     </div>
@@ -42,11 +42,25 @@
 
     <div class="footer">
         <div id="btn_download">
-            <h4>Download PDF Summar</h4>
+            <!-- <h4>Download PDF Summar</h4> -->
+            <a href="https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe">Download PDF Summar</a>
+            <style>
+            a{
+                border-radius: 10px;
+                background-color: rgb(255, 197, 39);
+                padding: 15px; 
+                width: 190px;  
+                text-decoration: none;  /*không gạch chân ở thẻ a khi có link */
+            }
+            </style>
+
         </div>
+        <!-- <a href="https://www.facebook.com/" id="btn_download">Download PDF Summar</a> -->
+
         <h5>(C) Academind GmbH</h5>
         
     </div>
+
 
 </body>
 </html>

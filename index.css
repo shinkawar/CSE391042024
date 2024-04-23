@@ -19,12 +19,13 @@
 .main_content {
     color:white;
     text-align: center;
-    background-color: rgba(126, 19, 248, 0.863);
+    background-color: #7f13f8;
     border-radius: 25px;
     padding: 20px; 
     width: 700px;
     text-align:left;
     margin-left: 30%;
+    margin-top: 50px;
 }
 
 h4{
@@ -46,15 +47,22 @@ h2{
     padding-left: 5px;
     
 }
+#select{
+    background-color: rgb(255, 197, 39);   
+    border-radius:4px;
+    padding: 5px;
+    width: 380px;
+    height: 20px;
+    margin-left: 2px;
+
+}
+
 .footer{
     text-align: center;
 
+
 }
-#btn_download h4{
-    margin-left: 44%;
-    border-radius: 10px;
-    background-color: rgb(255, 197, 39);
-    padding: 15px; 
-    width: 190px;
+#btn_download {
+    margin-top: 50px;
 
 }

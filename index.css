@@ -1,0 +1,60 @@
+* {
+    background: rgb(243, 230, 255);
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-style: normal;
+    color: blueviolet;
+
+}
+
+
+#img_logo{
+    height: 150px;
+    width: 300px;
+}
+
+.main_content {
+    color:white;
+    text-align: center;
+    background-color: rgba(126, 19, 248, 0.863);
+    border-radius: 25px;
+    padding: 20px; 
+    width: 700px;
+    text-align:left;
+    margin-left: 30%;
+}
+
+h4{
+    background-color: rgba(126, 19, 248, 0.863);
+}
+
+h3{
+    background-color: rgba(126, 19, 248, 0.863);
+}
+
+h2{
+    background-color: rgba(126, 19, 248, 0.863);
+}
+
+
+#st1{
+    color: rgb(253, 255, 154);
+	border-left: 5px solid yellow;
+    padding-left: 5px;
+    
+}
+.footer{
+    text-align: center;
+
+}
+#btn_download h4{
+    margin-left: 44%;
+    border-radius: 10px;
+    background-color: rgb(255, 197, 39);
+    padding: 15px; 
+    width: 190px;
+
+}
